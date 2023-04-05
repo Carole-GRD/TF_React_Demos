@@ -1,0 +1,16 @@
+.man {
+    color: navy;
+}
+
+.woman {
+    color: blueviolet;
+}
+
+.other {
+    color: greenyellow;
+}
+
+.main {
+    padding: 0.5ch;
+    background-color: salmon;
+}

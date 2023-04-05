@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "firstname": "Zaza",
+      "lastname": "Vanderquack",
+      "birthdate": "2010-02-03"
+    },
+    {
+      "id": 2,
+      "firstname": "Batlhazar",
+      "lastname": "Picsou",
+      "birthdate": "1970-11-11"
+    },
+    {
+      "id": 3,
+      "firstname": "Della",
+      "lastname": "Duck",
+      "birthdate": "1989-01-03"
+    },
+    {
+      "id": 4,
+      "firstname": "Donald",
+      "lastname": "Duck",
+      "birthdate": null
+    }
+  ]
