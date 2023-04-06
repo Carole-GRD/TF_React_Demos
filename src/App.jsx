@@ -5,7 +5,6 @@ import './App.css'
 
 import fruitData from './data/fruits.json';
 import peopleData from './data/people.json';
-import TemperatureForm from './components/temperature-form/temperature-form';
 
 // import Welcome from './components/welcome/welcome';
 // import LuckyNumber from './components/lucky-number/lucky-number';
@@ -13,6 +12,8 @@ import TemperatureForm from './components/temperature-form/temperature-form';
 // import FruitList from './components/fruit-list/fruit-list';
 // import PeopleTable from './components/people-table/people-table';
 // import Multi3 from './components/multi-3/multi-3';
+// import TemperatureForm from './components/temperature-form/temperature-form';
+import Counter from './containers/counter/counter';
 
 
 function App() {
@@ -38,9 +39,12 @@ function App() {
       {/* <h2>Demo 04 - Le state</h2>
       <Multi3 /> */}
 
-      <h2>Demo 05 - Les formulaires</h2>
+      {/* <h2>Demo 05 - Les formulaires</h2>
       <TemperatureForm />
-      <TemperatureForm />
+      <TemperatureForm /> */}
+
+      <h2>Demo 06 - Communication entre composants</h2>
+      <Counter />
     </div>
   )
 }
