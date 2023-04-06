@@ -23,9 +23,9 @@ function App() {
 
       {/* <h2>Demo 01 - Les composants</h2>
       <Welcome name='Della' />
-      <LuckyNumber />
+      <LuckyNumber /> */}
 
-      <h2>Demo 02 - Les conditions</h2>
+      {/* <h2>Demo 02 - Les conditions</h2>
       <PersonCondition gender='F' firstname='Carole' lastname='Gérard' />
       <PersonCondition gender='M' firstname='Geoffrey' lastname='Gillet' />
       <PersonCondition gender='X' firstname='Donald' lastname='Duck' /> */}
@@ -36,6 +36,7 @@ function App() {
 
       <h2>Demo 04 - Le state</h2>
       <Multi3 />
+
     </div>
   )
 }

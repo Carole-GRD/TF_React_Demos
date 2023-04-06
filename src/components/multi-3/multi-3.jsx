@@ -6,7 +6,8 @@ const Multi3 = () => {
     const [multiplier, setMultiplier] = useState(1);
 
     const handleUp = () => {
-        console.log('Avant le set : ', multiplier);
+        // console.log('Avant le set : ', multiplier);
+
         // ↓ ne pas utiliser pour faire évoluer une valeur
         // setMultiplier(multiplier + 1);
         // setMultiplier(multiplier + 1);
@@ -20,7 +21,8 @@ const Multi3 = () => {
 
         // pour donner une valeur définie
         // setMultiplier(42);
-        console.log('Après le set : ', multiplier);
+
+        // console.log('Après le set : ', multiplier);
     }
 
     const handleDown = () => {
@@ -29,7 +31,7 @@ const Multi3 = () => {
 
     return (
         <div>
-            {console.log('Render : ', multiplier)}
+            {/* {console.log('Render : ', multiplier)} */}
             {/* <h3>1 x 3 = 3</h3> */}
             <h3>{multiplier} x 3 = {multiplier * 3}</h3>
             <div>
