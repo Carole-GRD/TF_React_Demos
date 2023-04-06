@@ -17,18 +17,24 @@ const TemperatureForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        let result;
+        // "tempSource" est une valeur de type 'string',
+        // on convertit cette valeur en 'number' avec parseFloat()
+        // -> on peut vérifier que l'utilisateur a bien entré un nombre
+        // -> si on fait un calcul avec un '+', les valeurs seront concaténées
         const source = parseFloat(tempSource);
+        let result;
+
+        if (isNaN(source)) {
+            result = 'Valeur invalide'
+        }
         if (choice === 'C-to-F') {
-            // result = ((tempSource * 1.8) + 32).toFixed(2);
             result = ((source * 1.8) + 32).toFixed(2);
         }
         else if (choice === 'F-to-C') {
-            // result = ((tempSource - 32) / 1.8).toFixed(2);
             result = ((source - 32) / 1.8).toFixed(2);
         }
         else {
-            result = 'Conversion invalide'
+            result = 'Erreur : Conversion invalide ?'
         }
 
         setTempResult(result);
