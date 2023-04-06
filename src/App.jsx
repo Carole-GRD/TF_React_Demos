@@ -5,13 +5,14 @@ import './App.css'
 
 import fruitData from './data/fruits.json';
 import peopleData from './data/people.json';
+import TemperatureForm from './components/temperature-form/temperature-form';
 
 // import Welcome from './components/welcome/welcome';
 // import LuckyNumber from './components/lucky-number/lucky-number';
 // import PersonCondition from './components/person-condition/person-condition';
-import FruitList from './components/fruit-list/fruit-list';
-import PeopleTable from './components/people-table/people-table';
-import Multi3 from './components/multi-3/multi-3';
+// import FruitList from './components/fruit-list/fruit-list';
+// import PeopleTable from './components/people-table/people-table';
+// import Multi3 from './components/multi-3/multi-3';
 
 
 function App() {
@@ -34,9 +35,12 @@ function App() {
       <FruitList fruits={fruitData} />
       <PeopleTable people={peopleData}/> */}
 
-      <h2>Demo 04 - Le state</h2>
-      <Multi3 />
+      {/* <h2>Demo 04 - Le state</h2>
+      <Multi3 /> */}
 
+      <h2>Demo 05 - Les formulaires</h2>
+      <TemperatureForm />
+      <TemperatureForm />
     </div>
   )
 }
