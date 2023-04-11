@@ -14,6 +14,8 @@ import peopleData from './data/people.json';
 // import Multi3 from './components/multi-3/multi-3';
 // import TemperatureForm from './components/temperature-form/temperature-form';
 import Counter from './containers/counter/counter';
+import CounterEffect from './components/counter-effect/counter-effect';
+import DemoEffect from './containers/counter-effect/demo-effect';
 
 
 function App() {
@@ -43,8 +45,11 @@ function App() {
       <TemperatureForm />
       <TemperatureForm /> */}
 
-      <h2>Demo 06 - Communication entre composants</h2>
-      <Counter />
+      {/* <h2>Demo 06 - Communication entre composants</h2>
+      <Counter /> */}
+
+      <h2>Demo 07 - Cycle de vie</h2>
+      <DemoEffect />
     </div>
   )
 }
