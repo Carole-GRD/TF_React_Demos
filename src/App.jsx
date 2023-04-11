@@ -16,6 +16,7 @@ import peopleData from './data/people.json';
 import Counter from './containers/counter/counter';
 import CounterEffect from './components/counter-effect/counter-effect';
 import DemoEffect from './containers/counter-effect/demo-effect';
+import DemoAjax from './containers/demo-ajax/demo-ajax';
 
 
 function App() {
@@ -48,8 +49,11 @@ function App() {
       {/* <h2>Demo 06 - Communication entre composants</h2>
       <Counter /> */}
 
-      <h2>Demo 07 - Cycle de vie</h2>
-      <DemoEffect />
+      {/* <h2>Demo 07 - Cycle de vie</h2>
+      <DemoEffect /> */}
+
+      <h2>Demo 08 - Demo Ajax</h2>
+      <DemoAjax />
     </div>
   )
 }
