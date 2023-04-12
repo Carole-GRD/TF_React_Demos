@@ -24,6 +24,8 @@ function App() {
 
   return (
     <div className='App'>
+      {/* quelques demos supplémentaires : https://github.com/FormCours/TF_2022_FS_Web__React_Demo */}
+
       <h1>Demos</h1>
 
       {/* <h2>Demo 01 - Les composants</h2>
